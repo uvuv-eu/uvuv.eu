@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Unica</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        img, video {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        img:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.instagram.com/uvuv.uvuv.uvuv/" target="_blank">
+            <img src="https://github.com/uvuv-eu/uvuv.eu/blob/main/uvuv_wip1.jpg?raw=true" alt="Immagine Cliccabile">
+        </a>
+    </div>
+</body>
+</html>
